@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  go:
+    build:
+      context: .
+      dockerfile: ./compose/Dockerfile
+      args:
+        GIT_AUTH_TOKEN: ${GIT_AUTH_TOKEN}

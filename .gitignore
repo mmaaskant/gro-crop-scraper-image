@@ -1,0 +1,9 @@
+# Hidden files and directories
+.idea
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+
+# Environment file
+.env
